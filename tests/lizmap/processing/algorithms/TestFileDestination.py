@@ -8,7 +8,7 @@ from qgis.core import (QgsProcessingParameterNumber,
                        QgsProcessingOutputString,
                        QgsProcessingParameterFileDestination,
                        QgsProcessingAlgorithm)
-
+import codecs
 
 class TestFileDestination(QgsProcessingAlgorithm):
 
